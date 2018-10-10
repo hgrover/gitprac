@@ -1,4 +1,5 @@
 sum = 0
-for num in range(10):
+upper = int(input('Enter upper bound: '))
+for num in range(upper):
     sum += num
 print('sum: ', sum)
